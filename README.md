@@ -1,36 +1,48 @@
-## Statistical Summary of Numerical Features
+#  Heart Disease Dataset
 
-###  Age
-- Average age: 54 years  
-- Minimum age: 29 years  
-- Maximum age: 77 years  
+**Public Health Dataset**  
+Last Updated: 7 years ago (Version 2)
+---
+##  About the Dataset
+
+###  Context
+This dataset dates from **1988** and consists of four databases:
+- Cleveland  
+- Hungary  
+- Switzerland  
+- Long Beach V  
+
+It contains **76 attributes**, including the predicted attribute. However, most published studies use a subset of **14 key features**.
+
+The **target variable** indicates the presence of heart disease:
+- `0` = No disease  
+- `1` = Disease  
 
 ---
 
-###  Resting Blood Pressure
-- Average: 131 mmHg  
-- Minimum: 94 mmHg  
-- Maximum: 180 mmHg  
+## Attribute Information
+
+The dataset includes the following features:
+
+- Age  
+- Sex  
+- Chest pain type (4 values)  
+- Resting blood pressure  
+- Serum cholesterol (mg/dl)  
+- Fasting blood sugar > 120 mg/dl  
+- Resting electrocardiographic results (0, 1, 2)  
+- Maximum heart rate achieved  
+- Exercise induced angina  
+- Oldpeak (ST depression induced by exercise relative to rest)  
+- Slope of the peak exercise ST segment  
+- Number of major vessels (0–3) colored by fluoroscopy  
+- Thal:
+  - 0 = normal  
+  - 1 = fixed defect  
+  - 2 = reversible defect  
 
 ---
 
-### Cholesterol
-- Average level: 245.34 mg/dl  
-- Minimum level: 126 mg/dl  
-- Maximum level: 417 mg/dl  
-
-> Note: A healthy cholesterol level is generally below 200 mg/dl. High levels are associated with heart disease.
-
----
-
-###  ST Depression
-- Average: 0.999  
-- Minimum: 0  
-- Maximum: 4.4  
-
----
-
-###  Maximum Heart Rate
-- Average: 149.93 bpm  
-- Minimum: 88 bpm  
-- Maximum: 202 bpm  
+## ⚠️ Notes
+- Patient names and social security numbers were removed for privacy.
+- They were replaced with dummy values.
