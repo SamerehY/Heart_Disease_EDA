@@ -1,4 +1,4 @@
-✨Statistical summary of the numerical features✨
+Statistical summary of the numerical features:
 Age:
 The average age in the dataset is 54 years
 The oldest is 77 years, and the youngest is 29 years old.
