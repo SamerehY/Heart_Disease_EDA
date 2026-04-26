@@ -35,8 +35,3 @@ The dataset includes the following features:
   - 1 = fixed defect  
   - 2 = reversible defect  
 
----
-
-## ⚠️ Notes
-- Patient names and social security numbers were removed for privacy.
-- They were replaced with dummy values.
