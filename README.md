@@ -1,18 +1,12 @@
 #  Heart Disease Dataset
 
 **Public Health Dataset**  
-Last Updated: 7 years ago (Version 2)
+
 ---
+
 ##  About the Dataset
 
-###  Context
-This dataset dates from **1988** and consists of four databases:
-- Cleveland  
-- Hungary  
-- Switzerland  
-- Long Beach V  
-
-It contains **76 attributes**, including the predicted attribute. However, most published studies use a subset of **14 key features**.
+It contains  **14 key features**.
 
 The **target variable** indicates the presence of heart disease:
 - `0` = No disease  
